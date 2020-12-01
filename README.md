@@ -1,3 +1,11 @@
+# Recital Fork
+
+DocRipper puts out an annoying warning about Sketch each time we run, and
+outputting just that warning requires an extra package that causes an error when
+running Tapioca for Sorbet RBI typechecking files. Since Recital won't use
+Sketch, this fork removes that suport, the warning, and the associated
+colorization dependency.
+
 # DocRipper
 [![Gem Version](https://badge.fury.io/rb/doc_ripper.svg)](http://badge.fury.io/rb/doc_ripper)
 
